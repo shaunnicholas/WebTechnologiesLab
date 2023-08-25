@@ -1,0 +1,59 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img {
+  align-self: center;
+  width: 600px;
+  height: 470px;
+  transition: width 1s, height 1s;
+}
+  
+img:hover {
+  width: 900px;
+  height: 613px;
+}
+
+h1 {
+  text-align: center;
+  padding: 50px;
+  font-size: 2em;
+  transform: rotate(0deg);
+  transition: transform 0.5s ease;
+}
+
+h1:hover {
+  transform: rotate(-360deg);
+  color: rgb(12, 175, 12);
+}
+
+marquee{
+  width:100%; 
+  direction:right; 
+  height:100px
+}
+
+a{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  background-color: transparent;
+  text-decoration: none;
+  color: black;
+}
+
+p{
+  text-align: center;
+}
+
+
+a:hover{
+  color:  rgb(12, 175, 12);
+}
+
+h3{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
