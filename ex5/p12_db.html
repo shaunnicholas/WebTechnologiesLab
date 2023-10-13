@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+</head>
+<style>
+    p {font-family: 'Courier New', Courier, monospace;}
+</style>
+<body style="background-color: bisque;">
+    
+    <h2 style="font-family: 'Courier New', Courier, monospace;">Student Details</h2>
+    <form action="http://localhost:8080/ex5/db3" method="post">
+        <p>Reg No:</p> 
+        <!-- Create an element with mandatory name attribute,
+        so that data can be transfer to the servlet using getParameter() -->
+        <input type="text" name="regno"/>
+        <p>Student Name:</p> 
+        <input type="text" name="name"/>
+        <p>Age:</p> 
+        <input type="text" name="age"/>
+        <p>CGPA:</p> 
+        <input type="text" name="cgpa"/>
+        <br/><br/>
+        <p>Department:</p> 
+        <input type="text" name="course"/>
+        <br/><br/>
+        <br/><br/>
+        <input type="submit"/>
+    </form>
+</body>
+</html>
