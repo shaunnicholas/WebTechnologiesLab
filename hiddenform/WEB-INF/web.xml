@@ -1,0 +1,24 @@
+<web-app>   
+    
+<!-- Program p8_h1.java -->
+    <servlet>
+        <servlet-name>p8_h1</servlet-name>
+        <servlet-class>p8_h1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p8_h1</servlet-name>
+        <url-pattern>/hidden1</url-pattern>
+    </servlet-mapping>
+<!-- Program p8_h2.java -->
+    <servlet>
+        <servlet-name>p8_h2</servlet-name>
+        <servlet-class>p8_h2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p8_h2</servlet-name>
+        <url-pattern>/hidden2</url-pattern>
+    </servlet-mapping>
+
+</web-app>
